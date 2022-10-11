@@ -25,13 +25,13 @@ export default {
         },
         {
           title: 'Earthmover',
-          background: '/4wd.jpg',
+          background: '/earthmover-bg.jpg',
           slug: 'earthmover',
           content: EarthMover
         },
         {
           title: 'Truck',
-          background: '/4wd.jpg',
+          background: '/truck-bg.jpg',
           slug: 'truck',
           content: Truck
         }

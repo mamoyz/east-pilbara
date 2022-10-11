@@ -4,15 +4,16 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'east-pilbara',
+    title: 'East Pilbara Tyre Service',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: 'East Pilbara Tyres can help by supplying, fitting and repairing 4WO, passenger, caravon ond trailer tyres.' },
+      { name: 'format-detection', content: 'telephone=no' },
+      { hid: 'og:image', property: 'og:image', content: '/og_image.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
