@@ -1,0 +1,158 @@
+:root {
+    --primary: #ffd600;
+    --gray: #f3f3f3;
+}
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cta {
+    font-size: 21px !important;
+    display: inline-block;
+    line-height: 1.6;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    &:hover {
+        text-decoration: none;
+    }
+    &-small {
+        letter-spacing: 1.5px;
+        font-size: 14px !important;
+    }
+    &-xsmall {
+        letter-spacing: 1px;
+        font-size: 14px !important;
+        padding: 6px 16px;
+    }
+    &-primary {
+        background: var(--primary);
+        color: #000000 !important;
+        &:hover {
+            filter: brightness(0.97);
+        }
+    }
+    &-black {
+        background: #000;
+        color: #fff !important;
+        &:hover {
+            color: var(--primary) !important;
+        }
+    }
+    &-white {
+        background: #fff;
+        color: #000 !important;
+        &:hover {
+            background: #000;
+            color: var(--primary) !important;
+            svg path {
+                fill: var(--primary) !important;
+            }
+        }
+    }
+    &-gray {
+        color: #000;
+        background-color: #e5e5e5;
+        &:hover {
+            background-color: #e0e0e0;
+        }
+    }
+}
+.section {
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+.txt {
+    &-primary {
+        color: var(--primary);
+    }
+    &-gray {
+        color: rgba(#000, 0.5);
+    }
+}
+
+.sub-heading {
+    letter-spacing: 3px;
+    color: var(--primary);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.h1,
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.h2,
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.h3,
+h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+.h4,
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.h5,
+h5 {
+    font-size: 21px;
+    font-weight: 600;
+}
+.h6,
+h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.caption {
+    font-size: 14px;
+}
+.body1 {
+    font-size: 21px;
+}
+
+.form-input {
+    border-radius: 0;
+    background-color: #f3f3f3;
+    border: none;
+    padding: 15px 20px;
+    height: auto;
+    font-size: 16px;
+    -webkit-appearance: none;
+    width: 100%;
+    display: block;
+    &::placeholder {
+        color: rgba(0, 0, 0, 0.5);
+    }
+    &:focus,
+    &:active {
+        outline: 1px solid var(--primary);
+    }
+    &.form-select {
+        background-image: url("/select-arrow.svg");
+        background-repeat: no-repeat;
+        background-position: right 20px bottom 50%;
+        padding-right: 40px;
+    }
+}
+
+.background {
+    &-primary {
+        background: var(--primary);
+    }
+}
